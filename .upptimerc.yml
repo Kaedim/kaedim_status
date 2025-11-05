@@ -3,6 +3,12 @@ owner: Kaedim # Your GitHub organization or username, where this repository live
 repo: kaedim_status # The name of this repository
 
 sites:
+  - name: Customer Web App
+    url: https://app.kaedim3d.com
+  - name: Backend API
+    url: https://api.kaedim3d.com
+    expectedStatusCodes:
+      - 200
   - name: Google
     url: https://www.google.com
   - name: Wikipedia
@@ -11,8 +17,6 @@ sites:
     url: https://news.ycombinator.com
   - name: Test Broken Site
     url: https://thissitedoesnotexist.koj.co
-  - name: Kaedim API
-    url: https://api.kaedim3d.com
   - name: IPv6 test
     url: forwardemail.net
     port: 80
@@ -26,13 +30,17 @@ status-website:
   baseUrl: /kaedim_status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Kaedim status
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "All systems are operational"
+  introMessage: >
+    This page shows real-time availability and historical uptime for Kaedim services.
+    Subscribe via GitHub to get incident updates.
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  footer: >
+    Need help? Contact support@kaedim3d.com • © Kaedim
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
