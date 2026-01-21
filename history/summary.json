@@ -24,7 +24,7 @@
     "url": "https://api.kaedim3d.com",
     "icon": "https://icons.duckduckgo.com/ip3/api.kaedim3d.com.ico",
     "slug": "backend-api",
-    "status": "up",
+    "status": "down",
     "uptime": "99.81%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.89%",
@@ -36,6 +36,7 @@
     "timeMonth": 722,
     "timeYear": 811,
     "dailyMinutesDown": {
+      "2026-01-21": 0,
       "2026-01-14": 11,
       "2026-01-12": 40,
       "2026-01-08": 12,
